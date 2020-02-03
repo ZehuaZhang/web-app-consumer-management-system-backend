@@ -10,7 +10,7 @@ router.get('/', (req: Request, res: Response) => {
     `Welcome to .zZehua's Epic Server!\n\n` +
     `Home Page => GET /\n` +
     `Health Check => GET /ping\n\n` +
-    `User => /accounts or /api/users/\n` +
+    `User => /accounts/ or /api/users/\n` +
     `User Add => POST / BODY={username:string, email:string, dateofbirth:epochtimenumber, balance:number}\n` +
     `User Update => POST /:id BODY={username?:string, email?:string, dateofbirth?:epochtimenumber, balance?:number}\n` +
     `User Delete => DELETE /:id \n` +
