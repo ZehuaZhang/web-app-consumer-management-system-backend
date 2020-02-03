@@ -20,13 +20,13 @@
 $ yarn
 ```
 
-### Run Client
-
-```
-$ yarn client
-```
-
 ### Run Server
+
+```
+$ yarn start
+```
+
+or
 
 ```
 $ yarn server
