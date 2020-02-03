@@ -1,4 +1,4 @@
-# Epic
+# Epic Server
 
 - [x] Designed Epic CMS, Frontend & Backend
 - [x] Enabled User Add, Delete, Update, Get
