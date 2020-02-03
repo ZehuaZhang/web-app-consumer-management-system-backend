@@ -1,0 +1,36 @@
+{
+  "name": "interview-epicgames-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "internal cms backend",
+  "keywords": [
+    "typescript",
+    "epic",
+    "cms"
+  ],
+  "author": ".zZehua",
+  "scripts": {
+    "predeploy": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/.bin/ts-node -r tsconfig-paths/register ./src/server/main.server.ts",
+    "start": "yarn server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/history": "^4.7.2",
+    "@types/morgan": "^1.7.37",
+    "@types/node": "^13.1.8",
+    "@types/superagent": "^4.1.4",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "superagent": "^5.2.1"
+  }
+}
